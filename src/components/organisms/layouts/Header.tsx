@@ -42,7 +42,7 @@ export const Header: FC = memo(() => {
             <Flex
                 justify="space-between"
                 align="center"
-                padding={{ base: 5, md: 7 }}
+                padding={{ base: 5, md: 6 }}
                 borderTop="2px solid #D6B053"
             >
                 <Flex
@@ -64,9 +64,11 @@ export const Header: FC = memo(() => {
                         ベーかりー あんど ぱーく
                     </Text>
                 </Flex>
-                <Flex display={{ base: "none", md: "flex" }} gap="10px">
+                <Flex display={{ base: "none", md: "flex" }} gap="12px">
                     <Box>
                         <Link
+                            fontSize={14}
+                            color="#675D48"
                             transition="transform 0.2s ease-out"
                             _hover={{
                                 transform: "scale(1.1)",
@@ -80,6 +82,8 @@ export const Header: FC = memo(() => {
                     </Box>
                     <Box>
                         <Link
+                            fontSize={14}
+                            color="#675D48"
                             transition="transform 0.2s ease-out"
                             _hover={{
                                 transform: "scale(1.1)",
@@ -93,6 +97,8 @@ export const Header: FC = memo(() => {
                     </Box>
                     <Box>
                         <Link
+                            fontSize={14}
+                            color="#675D48"
                             transition="transform 0.2s ease-out"
                             _hover={{
                                 transform: "scale(1.1)",
@@ -106,6 +112,8 @@ export const Header: FC = memo(() => {
                     </Box>
                     <Box>
                         <Link
+                            fontSize={14}
+                            color="#675D48"
                             transition="transform 0.2s ease-out"
                             _hover={{
                                 transform: "scale(1.1)",
@@ -119,6 +127,8 @@ export const Header: FC = memo(() => {
                     </Box>
                     <Box>
                         <Link
+                            fontSize={14}
+                            color="#675D48"
                             transition="transform 0.2s ease-out"
                             _hover={{
                                 transform: "scale(1.1)",
