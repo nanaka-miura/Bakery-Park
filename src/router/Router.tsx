@@ -7,16 +7,20 @@ import { Setting } from "../components/pages/Setting";
 import { Like } from "../components/pages/Like";
 import { Login } from "../components/pages/Login";
 import { Register } from "../components/pages/Register";
+import { HeaderLayout } from "../components/templates/HeaderLayout";
 
 export const Router: FC = memo(() => {
     return (
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/detail/{id}" element={<Detail />} />
-            <Route path="/setting" element={<Setting />} />
-            <Route path="/like" element={<Like />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-        </Routes>
+        <HeaderLayout>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/detail/{id}" element={<Detail />} />
+                <Route path="/setting" element={<Setting />} />
+                <Route path="/like" element={<Like />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
+                <Route path="*" element={<p>404ページです</p>} />
+            </Routes>
+        </HeaderLayout>
     );
 });
