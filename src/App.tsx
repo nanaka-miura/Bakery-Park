@@ -1,12 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Button, ChakraProvider, defaultSystem } from "@chakra-ui/react";
+
+import theme  from "./theme/theme";
 
 function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+    return (
+        <ChakraProvider value={theme}>
+            <Button>ボタン</Button>
+        </ChakraProvider>
+    );
 }
 
 export default App;
