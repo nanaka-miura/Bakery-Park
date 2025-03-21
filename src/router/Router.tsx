@@ -8,6 +8,7 @@ import { Like } from "../components/pages/Like";
 import { Login } from "../components/pages/Login";
 import { Register } from "../components/pages/Register";
 import { HeaderLayout } from "../components/templates/HeaderLayout";
+import { SearchResult } from "../components/pages/SearchResult";
 
 export const Router: FC = memo(() => {
     return (
@@ -19,6 +20,7 @@ export const Router: FC = memo(() => {
                 <Route path="/like" element={<Like />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
+                <Route path="/search/:keyword" element={<SearchResult />} />
                 <Route path="*" element={<p>404ページです</p>} />
             </Routes>
         </HeaderLayout>

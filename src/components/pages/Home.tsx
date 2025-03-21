@@ -1,7 +1,7 @@
 import { FC, memo, useEffect, useState } from "react";
-import { Box, Flex, Image, Stack, Text, Input, Button } from "@chakra-ui/react";
-import { PrimaryButton } from "../atoms/button/PrimaryButton";
-import { Search } from "lucide-react";
+import { Box, Flex, Image, Stack, Text } from "@chakra-ui/react";
+import { Typewriter } from "react-simple-typewriter";
+
 import { SearchInputButton } from "../molecules/SearchInputButton";
 
 const images = [
@@ -62,8 +62,12 @@ export const Home: FC = memo(() => {
                     zIndex={0}
                 />
             </Box>
-            <Stack p={10} align="center">
-                <Flex w="100%" gap="10px" justify="center">
+            <Stack p={10} align="center" gap={5}>
+                <Typewriter
+                    words={["新しいパン屋を見つけましょう！"]}
+                    typeSpeed={100}
+                />
+                <Flex w="100%" gap="15px" justify="center">
                     <SearchInputButton onClickButton={onClickButton} />
                 </Flex>
             </Stack>
