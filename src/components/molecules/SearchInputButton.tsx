@@ -1,5 +1,5 @@
 import { FC, memo } from "react";
-import { Input } from "@chakra-ui/react";
+import { Input, Box } from "@chakra-ui/react";
 
 import { PrimaryButton } from "../atoms/button/PrimaryButton";
 
@@ -13,7 +13,9 @@ export const SearchInputButton: FC<Props> = memo((props) => {
     return (
         <>
             <Input w="60%" placeholder="店名 / エリア / 駅" outline="none" />
-            <PrimaryButton children="検索" onClick={onClickButton} />{" "}
+            <Box w="15%">
+                <PrimaryButton children="検索" onClick={onClickButton} />
+            </Box>
         </>
     );
 });

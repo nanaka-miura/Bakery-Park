@@ -15,12 +15,12 @@ export const Router: FC = memo(() => {
         <HeaderLayout>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/detail/{id}" element={<Detail />} />
+                <Route path="/detail/:id" element={<Detail />} />
                 <Route path="/setting" element={<Setting />} />
                 <Route path="/like" element={<Like />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
-                <Route path="/search/:keyword" element={<SearchResult />} />
+                <Route path="/search" element={<SearchResult />} />
                 <Route path="*" element={<p>404ページです</p>} />
             </Routes>
         </HeaderLayout>
