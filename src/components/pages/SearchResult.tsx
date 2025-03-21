@@ -17,7 +17,7 @@ export const SearchResult: FC = memo(() => {
             p="20px 50px"
             w="100%"
             display="grid"
-            gridGap="30px"
+            gridGap="40px"
             gridTemplateColumns="repeat(auto-fit,minmax(230px, 1fr))"
             justifyItems="center"
         >

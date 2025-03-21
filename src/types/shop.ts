@@ -4,4 +4,11 @@ export type Shop = {
     name: string;
     area: string;
     station: string;
+    detail: string;
+    address: string;
+    phone: string;
+    hours: string;
+    holiday: string;
+    instagram: string;
+    hp: string;
 };
