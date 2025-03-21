@@ -1,5 +1,5 @@
 import { FC, memo, useEffect, useState } from "react";
-import { Box, Flex, Image, Stack, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Stack } from "@chakra-ui/react";
 import { Typewriter } from "react-simple-typewriter";
 
 import { SearchInputButton } from "../molecules/SearchInputButton";

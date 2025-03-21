@@ -12,7 +12,7 @@ export const PrimaryButton: FC<Props> = memo((props) => {
     return (
         <>
             <Button
-                w="15%"
+                w="100%"
                 bg="#B88822"
                 _hover={{ opacity: 0.8 }}
                 cursor="pointer"
