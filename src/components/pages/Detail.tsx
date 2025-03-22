@@ -56,11 +56,50 @@ export const Detail: FC<Props> = memo((props) => {
                 shadow="md"
                 borderRadius="5px"
             >
+                <Text
+                    textAlign="center"
+                    fontSize="md"
+                    fontWeight="bold"
+                    mb="5px"
+                >
+                    店舗情報
+                </Text>
+                <Text
+                    borderBottom="1px solid #D6B053"
+                    mb="20px"
+                    width="50px"
+                    display="block"
+                    mx="auto"
+                    textAlign="center"
+                />
                 <Flex w="100%" gap="10px">
                     <Text w="20%" color="#B88822">
                         住所
                     </Text>
-                    <Text w="85%">{shop.address}</Text>
+                    <Flex w="85%" gap="10px">
+                        <Text>{shop.address}</Text>
+                        <Box
+                            bg="#B88822"
+                            color="#fff"
+                            p="3px 7px"
+                            fontSize="xs"
+                            borderRadius="20px"
+                        >
+                            <a
+                                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(shop.address)}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                onMouseOver={(e) => {
+                                    e.currentTarget.style.opacity = "0.8";
+                                }}
+                                onMouseOut={(e) => {
+                                    e.currentTarget.style.opacity = "1";
+                                }}
+                            >
+                                MAP
+                            </a>
+                        </Box>
+                    </Flex>
                 </Flex>
                 <Flex w="100%" gap="10px">
                     <Text w="20%" color="#B88822">
@@ -105,10 +144,49 @@ export const Detail: FC<Props> = memo((props) => {
                 </Flex>
                 <Flex w="100%" gap="10px">
                     <Text w="20%" color="#B88822">
-                        ＳＮＳ
+                        Instagram
                     </Text>
-                    <Text w="85%">{shop.instagram}</Text>
+                    <a
+                        style={{ width: "85%" }}
+                        href={shop.hp}
+                        onMouseOver={(e) => {
+                            e.currentTarget.style.opacity = "0.8";
+                        }}
+                        onMouseOut={(e) => {
+                            e.currentTarget.style.opacity = "1";
+                        }}
+                    >
+                        {shop.instagram}
+                    </a>
                 </Flex>
+            </Stack>
+            <Stack
+                maxWidth="1000px"
+                width="calc(100% - 60px)"
+                my="30px"
+                mx="auto"
+                p="30px 50px"
+                gap="10px"
+                bg="#fff"
+                shadow="md"
+                borderRadius="5px"
+            >
+                <Text
+                    textAlign="center"
+                    fontSize="md"
+                    fontWeight="bold"
+                    mb="5px"
+                >
+                    近くの公園情報
+                </Text>
+                <Text
+                    borderBottom="1px solid #D6B053"
+                    mb="20px"
+                    width="50px"
+                    display="block"
+                    mx="auto"
+                    textAlign="center"
+                />
             </Stack>
         </>
     );

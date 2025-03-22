@@ -10,7 +10,7 @@ export const shops = [
         phone: "03-1234-5678",
         hours: "10:00〜18:00",
         holiday: "毎週水曜日",
-        instagram: "@bakery_oizumi",
+        instagram: "https://www.instagram.com/bakery_oizumi",
         hp: "https://bakery-oizumi.com",
     },
     {
@@ -24,7 +24,7 @@ export const shops = [
         phone: "06-9876-5432",
         hours: "9:00〜17:00",
         holiday: "毎月第2火曜日",
-        instagram: "@pan_no_mori",
+        instagram: "https://www.instagram.com/pan_no_mori",
         hp: "https://pannomori.com",
     },
     {
@@ -38,7 +38,7 @@ export const shops = [
         phone: "045-1234-5678",
         hours: "7:30〜18:00",
         holiday: "毎週月曜日",
-        instagram: "@fuwafwapanya",
+        instagram: "https://www.instagram.com/fuwafwapanya",
         hp: "https://fuwafwapanya.com",
     },
     {
@@ -52,7 +52,7 @@ export const shops = [
         phone: "011-2345-6789",
         hours: "8:00〜18:00",
         holiday: "毎週火曜日",
-        instagram: "@punkraft_bakery",
+        instagram: "https://www.instagram.com/punkraft_bakery",
         hp: "https://punkraft.com",
     },
     {
@@ -66,7 +66,7 @@ export const shops = [
         phone: "052-3456-7890",
         hours: "9:00〜17:00",
         holiday: "毎週水曜日",
-        instagram: "@muginokaori",
+        instagram: "https://www.instagram.com/muginokaori",
         hp: "https://muginokaori.com",
     },
     {
@@ -80,7 +80,7 @@ export const shops = [
         phone: "075-1234-5678",
         hours: "7:30〜17:00",
         holiday: "毎週月曜日",
-        instagram: "@french_bakery_kyoto",
+        instagram: "https://www.instagram.com/french_bakery_kyoto",
         hp: "https://frenchbakerykyoto.com",
     },
     {
@@ -94,7 +94,7 @@ export const shops = [
         phone: "092-9876-5432",
         hours: "8:00〜18:00",
         holiday: "毎週水曜日",
-        instagram: "@amai_panya",
+        instagram: "https://www.instagram.com/amai_panya",
         hp: "https://amaipan.com",
     },
     {
@@ -108,7 +108,7 @@ export const shops = [
         phone: "03-3456-7890",
         hours: "9:00〜18:00",
         holiday: "毎月第1火曜日",
-        instagram: "@tennenkoubo_pan",
+        instagram: "https://www.instagram.com/tennenkoubo_pan",
         hp: "https://tennenkoubo-pan.com",
     },
     {
@@ -122,7 +122,7 @@ export const shops = [
         phone: "06-7890-1234",
         hours: "8:00〜17:00",
         holiday: "毎週日曜日",
-        instagram: "@oishiipan_koubou",
+        instagram: "https://www.instagram.com/oishiipan_koubou",
         hp: "https://oishiipan.com",
     },
     {
@@ -136,7 +136,7 @@ export const shops = [
         phone: "078-2345-6789",
         hours: "9:00〜18:00",
         holiday: "毎週水曜日",
-        instagram: "@genki_pan",
+        instagram: "https://www.instagram.com/genki_pan",
         hp: "https://genkipan.com",
     },
     {
@@ -150,7 +150,7 @@ export const shops = [
         phone: "03-5678-9012",
         hours: "9:00〜19:00",
         holiday: "毎週月曜日",
-        instagram: "@hananopanya",
+        instagram: "https://www.instagram.com/hananopanya",
         hp: "https://hananopanya.com",
     },
     {
@@ -164,7 +164,7 @@ export const shops = [
         phone: "048-1234-5678",
         hours: "10:00〜18:00",
         holiday: "毎週火曜日",
-        instagram: "@wakuwaku_bakery",
+        instagram: "https://www.instagram.com/wakuwaku_bakery",
         hp: "https://wakuwakubakery.com",
     },
     {
@@ -178,7 +178,7 @@ export const shops = [
         phone: "047-3456-7890",
         hours: "8:00〜17:00",
         holiday: "毎週日曜日",
-        instagram: "@kodawari_no_panya",
+        instagram: "https://www.instagram.com/kodawari_no_panya",
         hp: "https://kodawarinopanya.com",
     },
     {
@@ -192,7 +192,7 @@ export const shops = [
         phone: "082-1234-5678",
         hours: "9:00〜18:00",
         holiday: "毎週火曜日",
-        instagram: "@minnano_bakery",
+        instagram: "https://www.instagram.com/minnano_bakery",
         hp: "https://minnanobakery.com",
     },
     {
@@ -206,7 +206,7 @@ export const shops = [
         phone: "075-5678-9012",
         hours: "9:00〜18:00",
         holiday: "毎週月曜日",
-        instagram: "@oshare_bakery",
+        instagram: "https://www.instagram.com/oshare_bakery",
         hp: "https://osharebakery.com",
     },
 ];
