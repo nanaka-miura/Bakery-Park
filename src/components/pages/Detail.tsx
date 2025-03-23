@@ -2,6 +2,7 @@ import { FC, memo } from "react";
 import { Flex, Image, Box, Heading, Text, Stack } from "@chakra-ui/react";
 
 import { Shop } from "../../types/shop";
+import { PageTitle } from "../molecules/PageTitle";
 
 type Props = {
     shop: Shop;
@@ -13,25 +14,7 @@ export const Detail: FC<Props> = memo((props) => {
     return (
         <>
             <Box maxWidth="900px" m="0 auto" p="0 20px">
-                <Heading
-                    as="h1"
-                    textAlign="center"
-                    m="20px auto"
-                    marginBottom={0}
-                >
-                    {shop.name}
-                </Heading>
-                <Text textAlign="center" fontSize="xs" mt="5px" mb="15px">
-                    {shop.area}
-                </Text>
-                <Text
-                    borderBottom="1px solid #D6B053"
-                    mb="20px"
-                    width="50px"
-                    display="block"
-                    mx="auto"
-                    textAlign="center"
-                />
+                <PageTitle title={shop.name} subTitle={shop.area} />
                 <Text textAlign="center" mb="30px">
                     {shop.detail}
                 </Text>

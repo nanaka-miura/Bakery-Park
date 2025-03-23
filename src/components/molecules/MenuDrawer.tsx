@@ -103,7 +103,7 @@ export const MenuDrawer: FC<Props> = memo((props) => {
                                     color: "#D6B053",
                                 }}
                             >
-                                設定
+                                ユーザー設定
                             </Button>
                             <Button
                                 onClick={() => {

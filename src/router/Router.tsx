@@ -3,7 +3,7 @@ import { FC, memo, useEffect } from "react";
 
 import { Home } from "../components/pages/Home";
 import { Detail } from "../components/pages/Detail";
-import { Setting } from "../components/pages/Setting";
+import { UserSetting } from "../components/pages/UserSetting";
 import { Like } from "../components/pages/Like";
 import { Login } from "../components/pages/Login";
 import { Register } from "../components/pages/Register";
@@ -17,7 +17,7 @@ export const Router: FC = memo(() => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/detail/:id" element={<DetailWithShop />} />
-                <Route path="/setting" element={<Setting />} />
+                <Route path="/setting" element={<UserSetting />} />
                 <Route path="/like" element={<Like />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />

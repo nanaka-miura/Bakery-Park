@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 import { shops } from "../../entities/Shop";
 import { ShopCard } from "../organisms/shop/ShopCard";
+import { PageTitle } from "../molecules/PageTitle";
 
 export const Like: FC = memo(() => {
     const navigate = useNavigate();
@@ -14,27 +15,7 @@ export const Like: FC = memo(() => {
 
     return (
         <>
-            <Box maxWidth="900px" m="0 auto" p="0 20px">
-                <Heading
-                    as="h1"
-                    textAlign="center"
-                    m="20px auto"
-                    marginBottom={0}
-                >
-                    ユーザーさんのお気に入り店舗
-                </Heading>
-                <Text textAlign="center" fontSize="xs" mt="5px" mb="15px">
-                    likes
-                </Text>
-                <Text
-                    borderBottom="1px solid #D6B053"
-                    mb="20px"
-                    width="50px"
-                    display="block"
-                    mx="auto"
-                    textAlign="center"
-                />
-            </Box>
+            <PageTitle title="お気に入り店舗" subTitle="likes" />
             <Box
                 p="20px 50px"
                 w="100%"

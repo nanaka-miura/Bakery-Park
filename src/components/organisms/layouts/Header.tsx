@@ -122,7 +122,7 @@ export const Header: FC = memo(() => {
                             textDecoration="none"
                             onClick={onClickSetting}
                         >
-                            設定
+                            ユーザー設定
                         </Link>
                     </Box>
                     <Box>
